@@ -1,0 +1,60 @@
+body {
+  text-align: center;
+  font-family: Helvetica;
+}
+
+/*banner*/
+.intro, .new_york {
+  background-image: url(../the-flatiron-building.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#home {
+  font-size: 70px;
+}
+
+#home, h3.process, h2.process{
+  font-weight: bold;
+}
+
+#home, nav, .copy {
+  color: white;
+}
+
+p.about, p.work, p.team, p.contact {
+  font-size: 14px;
+}
+
+h2.process {
+  font-size: 32px;
+}
+
+.copy{
+  text-align: left;
+  font-size: 11px;
+  background-color: dimgray;
+}
+
+nav {
+  font-size: 18px;
+}
+
+h3.about, h3.work, h3.team, h3.contact, .new_york{
+  font-size: 23px;
+}
+
+.new_york {
+  font-size: 23px;
+  color: white;
+}
+
+nav a:visited, nav a:link, h6 a:link, h6 a:visited {
+  color: #FDFFFE;
+}
+
+nav a:hover {
+  color: #000000;
+  transition: color 0.3s ease-out 0.15s;
+}
